@@ -1,13 +1,26 @@
+.page::after {
+  position: absolute;
+  
+}
+
 .title {
   grid-area: 1/1/1/1;
   justify-self: center;
   max-width: 750px;
+  min-height: 408px;
   padding-top: 60px;
   font-size: 116px;
   line-height: 136px;
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
+  color: black;
+}
+
+.title::after{
+  position: absolute;
+  content: '*';
+  background: none;
 }
 
 .page__title:hover::before {
