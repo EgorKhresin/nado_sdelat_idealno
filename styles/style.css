@@ -1,0 +1,27 @@
+.title {
+  grid-area: 1/1/1/1;
+  justify-self: center;
+  padding-top: 60px;
+  max-width: 750px;
+  font-size: 116px;
+  line-height: 136px;
+  letter-spacing: 0.035em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page__title:hover::before {
+  background-color: white;
+  font-weight: normal;
+  font-size: 35px;
+  letter-spacing: normal;
+  text-transform: none;
+  line-height: 100%;
+  text-align: left;
+  position: absolute;
+  right: 20px;
+  top: 180px;
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  white-space: pre;
+  z-index: 1;
+}
