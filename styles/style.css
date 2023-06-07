@@ -1,8 +1,8 @@
 .title {
   grid-area: 1/1/1/1;
   justify-self: center;
-  padding-top: 60px;
   max-width: 750px;
+  padding-top: 60px;
   font-size: 116px;
   line-height: 136px;
   letter-spacing: 0.035em;
@@ -11,17 +11,20 @@
 }
 
 .page__title:hover::before {
-  background-color: white;
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  position: absolute;
+  top: 182px;
+  right: 22px;
+  z-index: 1;
+  border-radius: 20px;
+  padding: 36px 44px;
+  box-shadow: 0 12px 0 2px black, 0 0 0 2px black;
   font-weight: normal;
   font-size: 35px;
-  letter-spacing: normal;
-  text-transform: none;
   line-height: 100%;
+  letter-spacing: normal;
   text-align: left;
-  position: absolute;
-  right: 20px;
-  top: 180px;
-  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  text-transform: none;
+  background-color: white;
   white-space: pre;
-  z-index: 1;
 }
