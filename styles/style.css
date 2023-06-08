@@ -1,5 +1,10 @@
 .page::after {
+  content: '';
   position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff4d;
   
 }
 
@@ -8,18 +13,23 @@
   justify-self: center;
   max-width: 750px;
   min-height: 408px;
-  padding-top: 60px;
+  margin-top: 60px;
+  margin-bottom: auto;
+  color: black;
   font-size: 116px;
   line-height: 136px;
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
-  color: black;
 }
 
-.title::after{
-  position: absolute;
+.title:hover {
+  color: #4C4C4C;
+}
+
+.title::after {
   content: '*';
+  position: absolute;
   background: none;
 }
 
@@ -32,6 +42,7 @@
   border-radius: 20px;
   padding: 36px 44px;
   box-shadow: 0 12px 0 2px black, 0 0 0 2px black;
+  color: black;
   font-weight: normal;
   font-size: 35px;
   line-height: 100%;
