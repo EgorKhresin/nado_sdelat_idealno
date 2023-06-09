@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  min-width: 800px;
+  height: inherit;
+  font-family: Raleway, Arial, sans-serif;
+}
+
