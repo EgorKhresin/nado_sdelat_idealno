@@ -1,10 +1,20 @@
 .page::after {
   content: '';
   position: absolute;
+  inset: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
   background-color: #ffffff4d;
+}
+
+.video {
+  z-index: -1;
+  grid-area: 1/1/1/1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .title {
@@ -20,6 +30,7 @@
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
+  transition: all 200ms;
 }
 
 .title:hover {

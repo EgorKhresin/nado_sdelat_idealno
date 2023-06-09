@@ -19,11 +19,3 @@ body {
   font-family: Raleway, Arial, sans-serif;
 }
 
-video {
-  z-index: -1;
-  grid-area: 1/1/1/1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
